@@ -2,7 +2,7 @@
 const express = require('express')
 const Pizza = require('../Model/Pizzaschema')
 const router = express.Router()
-
+ 
 
 router.get('/getallpizzas', async (req, res) => {
 
